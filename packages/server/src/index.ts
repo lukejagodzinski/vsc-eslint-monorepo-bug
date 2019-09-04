@@ -1,3 +1,3 @@
 document.getElementById("root");
 
-function app() {}
+function server() {}

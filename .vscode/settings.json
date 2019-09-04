@@ -6,5 +6,9 @@
     "javascriptreact",
     { "language": "typescript", "autoFix": true },
     { "language": "typescriptreact", "autoFix": true }
+  ],
+  "eslint.workingDirectories": [
+    { "directory": "packages/app", "changeProcessCWD": true },
+    { "directory": "packages/server", "changeProcessCWD": true }
   ]
 }
